@@ -1,0 +1,31 @@
+{
+  "name": "create-wallet",
+  "version": "1.0.0",
+  "description": "create bitcoin ethereum solana wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wallet"
+  ],
+  "author": "Abbas Attarwala",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.73.3",
+    "base-58": "^0.0.1",
+    "bip32": "^4.0.0",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.0",
+    "bitcore-lib-doge": "^10.0.0",
+    "bs58": "^5.0.0",
+    "ethereumjs-utils": "^5.2.5",
+    "hdkey": "^2.1.0",
+    "keccak": "^3.0.3",
+    "pbkdf2": "^3.1.2",
+    "secure-random": "^1.1.2",
+    "sha.js": "^2.4.11",
+    "sha256": "^0.2.0",
+    "tiny-secp256k1": "^2.2.1"
+  }
+}
